@@ -20,15 +20,33 @@ button{
     border: 1px solid black;
 }
 
-.display{
+.buttonNumber:hover, .buttonEqual:hover, .buttonOperator:hover, #buttonClear:hover, .buttonDecimal:hover{
+    background-color: rgb(202, 199, 199);
+}
+
+#display{
     height: 75px;
     width: 250px;
     margin: 5px;
+    margin-right: 10px;
+    font-size: 30px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .line1{
     display: flex;
-    flex-direction: row-reverse;
+    
 }
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
 
